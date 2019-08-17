@@ -1,0 +1,59 @@
+body { 
+	margin: 0;
+	background-color: #233445;
+}
+.site {
+	margin: 0 auto;
+	width: 1600px;
+	height: auto;
+	font-size: 50px;
+	position: relative;
+}
+.pop-up {
+	width: 670px;
+	height: 1003px;
+	box-shadow: 0 10px 60px rgba(219, 225, 237, 0.3);
+	border-radius: 15px;
+	background-color: rgba(255, 255, 255, .9);
+	position: fixed;
+	overflow: hidden;
+	top: 0;
+	margin: 100px 465px;
+}
+header {
+	margin-bottom: 0;
+}
+header input {
+	float: right;
+	margin-top: 32px;
+	margin-right: 31px;
+	display: inline;
+}
+.clearfix {
+	clear: right;
+}
+.pop-up_image {
+	
+	margin: 185px 158px 0 157px;
+}
+.pop-up_text h2 {
+	margin: 90px 160px 0 160px;
+	width: 350px;
+	height: 35px;
+	font-size: 36px;
+	font-weight: 400;
+	line-height: 30px;
+}
+.pop-up_text p {
+	margin: 32px 190px 0 190px;
+	width: 291px;
+	height: 73px;
+	color: #979fae;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 28px;
+	text-align: center;
+}
+.pop-up_button {
+	margin: 43px 250px 0 250px;
+}
