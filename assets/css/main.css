@@ -4,21 +4,25 @@ body {
 }
 .site {
 	margin: 0 auto;
-	width: 1600px;
+	width: 100vh;
 	height: auto;
 	font-size: 50px;
 	position: relative;
 }
 .pop-up {
-	width: 670px;
-	height: 1003px;
+	max-height: 1000px;
+	max-width: 670px;
 	box-shadow: 0 10px 60px rgba(219, 225, 237, 0.3);
 	border-radius: 15px;
 	background-color: rgba(255, 255, 255, .9);
 	position: fixed;
-	overflow: hidden;
-	top: 0;
-	margin: 100px 465px;
+	overflow: auto;
+	top: 5vh;
+	bottom: 5vh;
+	left:0;
+    right:0;
+    margin-left:auto;
+    margin-right:auto;
 }
 header {
 	margin-bottom: 0;
@@ -34,10 +38,12 @@ header input {
 }
 .pop-up_image {
 	
-	margin: 185px 158px 0 157px;
+	margin-top: 16%;
+	margin-bottom: 0;
+	text-align: center;
 }
 .pop-up_text h2 {
-	margin: 90px 160px 0 160px;
+	margin: 9% auto 0;
 	width: 350px;
 	height: 35px;
 	font-size: 36px;
@@ -45,7 +51,7 @@ header input {
 	line-height: 30px;
 }
 .pop-up_text p {
-	margin: 32px 190px 0 190px;
+	margin: 3.2% auto 0;
 	width: 291px;
 	height: 73px;
 	color: #979fae;
@@ -55,5 +61,6 @@ header input {
 	text-align: center;
 }
 .pop-up_button {
-	margin: 43px 250px 0 250px;
+	margin-top: 4.3%;
+	text-align: center;
 }
