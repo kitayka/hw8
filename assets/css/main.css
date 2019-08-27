@@ -26,16 +26,12 @@ body {
 }
 header {
 	margin-bottom: 0;
+	position: absolute;
+	right: 0;
+	top: 0;
+	margin-right: 30px;
 }
-header input {
-	float: right;
-	margin-top: 32px;
-	margin-right: 31px;
-	display: inline;
-}
-.clearfix {
-	clear: right;
-}
+
 .pop-up_image {
 	
 	margin-top: 16%;
@@ -61,6 +57,11 @@ header input {
 	text-align: center;
 }
 .pop-up_button {
-	margin-top: 4.3%;
+	margin-top: 10%;
 	text-align: center;
+}
+.button_styles {
+	border: none;
+	background-color: transparent;
+	cursor: pointer; 
 }
